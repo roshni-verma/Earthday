@@ -1,0 +1,117 @@
+body 
+    {
+        background-image: url('background.jpg.jpg'); /* Path to your background image */
+        background-size: cover; /* Cover the entire viewport */
+        background-position: center; /* Center the background image */
+      }
+    
+      
+      nav {
+        position: absolute; /* Position the navbar absolutely */
+        top: 10px; /* Adjust top position */
+        right: 20px; /* Adjust right position */
+        
+        padding: 10px 20px;
+      }
+
+
+header {
+    background-color: #2E8B57;
+    color: #f9fbfce3;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #25c9df;
+}
+p {
+    color:rgb(245, 250, 250)
+}
+
+button {
+    background-color: #2E8B57;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #188518;
+}
+
+footer {
+    background-color: #2E8B57;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+  
+ p1{color:rgb(23, 24, 24)
+
+ }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

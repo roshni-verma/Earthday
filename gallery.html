@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .gallery {
+      display: grid;
+      
+      gap: 10px;
+      padding: 20px;
+    }
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="image1.jpg" alt="image 1">
+    </div>
+    <div class="gallery-item">
+      <img src="image2.jpg" alt="image 2">
+    </div>
+    <div class="gallery-item">
+      <img src="image3.jpg" alt="image 3">
+    </div>
+    
+  </div>
+</body>
+</html>
